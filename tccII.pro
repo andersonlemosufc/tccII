@@ -13,8 +13,20 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    queue/priorityqueue.cpp \
+    comparable/huffman/nodohuffman.cpp \
+    comparable/huffman/nodohuffmanstring.cpp \
+    comparable/comparable.cpp \
+    huffman/compress/huffmancompressor.cpp \
+    huffman/decompress/huffmandecompressor.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    queue/priorityqueue.h \
+    comparable/huffman/nodohuffman.h \
+    comparable/huffman/nodohuffmanstring.h \
+    comparable/comparable.h \
+    huffman/compress/huffmancompressor.h \
+    huffman/decompress/huffmandecompressor.h
 
 FORMS    += mainwindow.ui
