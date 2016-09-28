@@ -9,10 +9,13 @@ MainWindow::MainWindow(QWidget *parent) :
 {
     ui->setupUi(this);
 
-    QString filename = "/home/anderson/Documentos/tmp/a.txt";
+    QString filename = "/home/anderson/Documentos/tmp/aux.txt";
 
     HuffmanCompressor* comp = new HuffmanCompressor();
+    HuffmanDecompressor *dec = new HuffmanDecompressor();
     comp->compress(filename);
+    dec->decompress(filename+".huff");
+
 }
 
 MainWindow::~MainWindow()

@@ -8,6 +8,7 @@ HuffmanCompressor::HuffmanCompressor()
 void HuffmanCompressor::compress(QString filename)
 {
     int *map = this->createMap(filename);
+
     HuffmanTree* tree = this->createTree(map);
     QMap<int,TableValueHuffman>* table = tree->toDictionary();
     this->write(table, filename, tree);

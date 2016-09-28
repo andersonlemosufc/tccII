@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 #include "huffman/compress/huffmancompressor.h"
+#include "huffman/decompress/huffmandecompressor.h"
 
 namespace Ui {
 class MainWindow;

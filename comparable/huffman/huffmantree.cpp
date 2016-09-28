@@ -3,6 +3,7 @@
 HuffmanTree::HuffmanTree()
 {
     this->left = this->right = NULL;
+    this->value = this->frequence = 0;
     this->size = 1;
     this->height = 0;
     this->numberOfLeafs = 1;
@@ -137,6 +138,13 @@ unsigned char *HuffmanTree::toBinary()
     return res;
 }
 
+HuffmanTree *HuffmanTree::buildTree(QChar *structure)
+{
+    int index = -1;
+    unsigned char mask = 0;
+    return HuffmanTree::buildTree(structure,&index,&mask);
+}
+
 void HuffmanTree::updateVariables()
 {
     int sl=0, sr=0, hl=0, hr=0, ht=0, ll=0, lr=0;
@@ -214,4 +222,32 @@ void HuffmanTree::toBinary(HuffmanTree *nodo, unsigned char *vector, unsigned ch
         this->toBinary(nodo->getLeft(),vector,mask,index);
         this->toBinary(nodo->getRight(),vector,mask,index);
     }
+}
+
+HuffmanTree *HuffmanTree::buildTree(QChar *structure, int *index, unsigned char *mask)
+{
+    HuffmanTree* nodo = new HuffmanTree();
+    (*mask)>>=1;
+    if((*mask)==0){
+        (*mask)=128;
+        (*index)++;
+    }
+    unsigned char ch = (unsigned char) structure[(*index)].cell();
+    if((*mask) & ch){
+        unsigned char v = 0;
+        for(int m=128;m>0;m>>=1){
+            (*mask)>>=1;
+            if((*mask)==0){
+                (*mask)=128;
+                (*index)++;
+                ch = structure[(*index)].cell();
+            }
+            if((*mask) & ch) v = v | m;
+        }
+        nodo->setValue(v);
+    } else {
+        nodo->setLeft(HuffmanTree::buildTree(structure, index, mask));
+        nodo->setRight(HuffmanTree::buildTree(structure, index, mask));
+    }
+    return nodo;
 }

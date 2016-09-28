@@ -13,8 +13,6 @@ public:
     HuffmanCompressor();
     void compress(QString filename);
 
-
-
 private:
     int* createMap(QString filename);
     HuffmanTree* createTree(int *map);
