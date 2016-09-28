@@ -2,7 +2,6 @@
 #define PRIORITYQUEUE_H
 
 #include "../comparable/comparable.h"
-#include "../comparable/teste.h"
 
 #include <QDebug>
 

@@ -1,13 +1,13 @@
 #ifndef NODOHUFFMANSTRING_H
 #define NODOHUFFMANSTRING_H
 
-#include "nodohuffman.h"
+#include "huffmantree.h"
 
-class NodoHuffmanString : public NodoHuffman
+class HuffmanTreeString : public HuffmanTree
 {
 public:
-    NodoHuffmanString();
-    NodoHuffmanString(string valor, int frequence);
+    HuffmanTreeString();
+    HuffmanTreeString(string valor, int frequence);
 
 private:
     string stringValue;

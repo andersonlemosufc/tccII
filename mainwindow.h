@@ -2,6 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include "huffman/compress/huffmancompressor.h"
 
 namespace Ui {
 class MainWindow;
