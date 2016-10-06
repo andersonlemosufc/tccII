@@ -4,7 +4,7 @@
 #
 #-------------------------------------------------
 
-QT       += core gui
+QT       += core gui xml
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -15,18 +15,23 @@ TEMPLATE = app
 SOURCES += main.cpp\
         mainwindow.cpp \
     queue/priorityqueue.cpp \
-    comparable/huffman/nodohuffman.cpp \
-    comparable/huffman/nodohuffmanstring.cpp \
     comparable/comparable.cpp \
     huffman/compress/huffmancompressor.cpp \
-    huffman/decompress/huffmandecompressor.cpp
+    huffman/decompress/huffmandecompressor.cpp \
+    xmlparser/streamparser.cpp \
+    comparable/huffman/huffmantree.cpp \
+    comparable/huffman/huffmantreestring.cpp \
+    util/util.cpp
 
 HEADERS  += mainwindow.h \
     queue/priorityqueue.h \
-    comparable/huffman/nodohuffman.h \
-    comparable/huffman/nodohuffmanstring.h \
     comparable/comparable.h \
     huffman/compress/huffmancompressor.h \
-    huffman/decompress/huffmandecompressor.h
+    huffman/decompress/huffmandecompressor.h \
+    xmlparser/streamparser.h \
+    comparable/huffman/huffmantree.h \
+    comparable/huffman/huffmantreestring.h \
+    util/constants.h \
+    util/util.h
 
 FORMS    += mainwindow.ui

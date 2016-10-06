@@ -2,6 +2,9 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include "huffman/compress/huffmancompressor.h"
+#include "huffman/decompress/huffmandecompressor.h"
+#include "xmlparser/streamparser.h"
 
 namespace Ui {
 class MainWindow;
