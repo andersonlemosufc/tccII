@@ -5,13 +5,16 @@
 #include <fstream>
 #include "./comparable/huffman/huffmantree.h"
 #include "./util/constants.h"
+#include "./util/util.h"
 
 
 class HuffmanDecompressor
 {
 public:
     HuffmanDecompressor();
-    void decompress(QString filename);
+    void decompress(string filename);
+
+    HuffmanTree* lastTreeTest;
 
 private:
     void resetBuffer();

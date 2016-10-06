@@ -49,14 +49,17 @@ public:
     int getNumberOfLeafs();
     QMap<int,TableValueHuffman>* toDictionary();
     unsigned char* toBinary();
-    static HuffmanTree* buildTree(QChar *structure);
+    /*static HuffmanTree* buildTree(QChar *structure);
+    static HuffmanTree* buildTree(char *structure, int tam);*/
+    static HuffmanTree* buildTree(char *structure);
 
 private:
     void updateVariables();
     void print(HuffmanTree *nodo, int t);
-    void toDictionary(HuffmanTree* nodo, QMap<int, TableValueHuffman> *mapa, TableValueHuffman aux, unsigned char mask);
+    void toDictionary(HuffmanTree* nodo, QMap<int, TableValueHuffman> *mapa, TableValueHuffman *aux, unsigned char *mask, int nivel);
     void toBinary(HuffmanTree* nodo, unsigned char* vector, unsigned char *mask, int *index);
-    static HuffmanTree* buildTree(QChar *structure, int* index, unsigned char* mask);
+    /*static HuffmanTree* buildTree(QChar *structure, int* index, unsigned char* mask);*/
+    static HuffmanTree* buildTree(char *structure, int* index, unsigned char* mask);
 
 };
 

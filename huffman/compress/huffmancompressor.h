@@ -3,21 +3,25 @@
 
 #include <QFile>
 #include <QMap>
+#include <fstream>
 #include "./comparable/huffman/huffmantree.h"
 #include "./queue/priorityqueue.h"
 #include "./util/constants.h"
+#include "./util/util.h"
 
 class HuffmanCompressor
 {
 public:
     HuffmanCompressor();
-    void compress(QString filename);
+    void compress(string filename);
+
+    HuffmanTree *lastTreeTest;
 
 private:
-    int* createMap(QString filename);
+    int* createMap(string filename);
     HuffmanTree* createTree(int *map);
     HuffmanTree* createTree(PriorityQueue* queue);
-    void write(QMap<int,TableValueHuffman>*mapa, QString filename, HuffmanTree *tree);
+    void write(QMap<int,TableValueHuffman>*mapa, string filename, HuffmanTree *tree);
     void resetBuffer();
 
 

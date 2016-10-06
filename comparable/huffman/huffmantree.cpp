@@ -120,8 +120,12 @@ int HuffmanTree::getNumberOfLeafs()
 QMap<int, TableValueHuffman> *HuffmanTree::toDictionary()
 {
     QMap<int, TableValueHuffman>* mapa = new QMap<int, TableValueHuffman>();
-    TableValueHuffman tv = {"", 0};
-    this->toDictionary(this,mapa,tv,0);
+    int tam = ceil(this->height/8.0);
+    char *c = new char[tam];
+    for(int k=0;k<tam;k++) c[k] = 0;
+    TableValueHuffman tv = {string(c, tam), 0};
+    unsigned char mask = 0;
+    this->toDictionary(this,mapa,&tv,&mask,0);
     return mapa;
 }
 
@@ -137,8 +141,24 @@ unsigned char *HuffmanTree::toBinary()
     this->toBinary(this,res,&mask,&index);
     return res;
 }
-
+/*
 HuffmanTree *HuffmanTree::buildTree(QChar *structure)
+{
+    int index = -1;
+    unsigned char mask = 0;
+    return HuffmanTree::buildTree(structure,&index,&mask);
+}
+
+HuffmanTree *HuffmanTree::buildTree(char *structure, int tam)
+{
+    QChar *ch = new QChar[tam];
+    for(int k=0;k<tam;k++){
+        ch[k] = QChar(structure[k]);
+    }
+    return HuffmanTree::buildTree(ch);
+}*/
+
+HuffmanTree *HuffmanTree::buildTree(char *structure)
 {
     int index = -1;
     unsigned char mask = 0;
@@ -171,7 +191,7 @@ void HuffmanTree::updateVariables()
 void HuffmanTree::print(HuffmanTree *nodo, int t)
 {
     if(nodo!=NULL){
-        QString s = "";
+        QString s = QString("%1").arg(t);
         for(int k=0;k<t;k++)s+="    ";
         s = QString(s.append("val: ").append((QChar)nodo->getValue()).append(" > freq: %1")).arg(nodo->getFrequence());
         qDebug() << s;
@@ -180,22 +200,31 @@ void HuffmanTree::print(HuffmanTree *nodo, int t)
     }
 }
 
-void HuffmanTree::toDictionary(HuffmanTree *nodo, QMap<int, TableValueHuffman> *mapa, TableValueHuffman aux, unsigned char mask)
+void HuffmanTree::toDictionary(HuffmanTree *nodo, QMap<int, TableValueHuffman> *mapa, TableValueHuffman *aux, unsigned char *mask, int nivel)
 {
+    (*mask)>>=1;
+    if((*mask)==0){
+        (*mask) = 128;
+    }
     if(nodo->isLeaf()){
-        mapa->insert(nodo->getValue(), aux);
+        aux->length = nivel;
+        mapa->insert(nodo->getValue(), *aux);
     } else {
-        aux.length++;
-        mask>>=1;
-        if(mask==0){
-            aux.value += mask;
-            mask = 128;
+        int index = nivel/8;
+
+        aux->value[index] = (aux->value[index] & ~(*mask));
+        this->toDictionary(nodo->getLeft(), mapa, aux, mask, nivel+1);
+        (*mask)<<=1;
+        if((*mask)==0){
+            (*mask) = 1;
         }
-        int index = aux.length/8;
-        TableValueHuffman aux2 = aux;
-        aux2.value[index] = (unsigned char)(mask | aux2.value[index]);
-        this->toDictionary(nodo->getLeft(), mapa, aux, mask);
-        this->toDictionary(nodo->getRight(), mapa, aux2, mask);
+
+        aux->value[index] = (aux->value[index] | *mask);
+        this->toDictionary(nodo->getRight(), mapa, aux, mask, nivel+1);
+        (*mask)<<=1;
+        if((*mask)==0){
+            (*mask) = 1;
+        }
     }
 }
 
@@ -224,7 +253,35 @@ void HuffmanTree::toBinary(HuffmanTree *nodo, unsigned char *vector, unsigned ch
     }
 }
 
-HuffmanTree *HuffmanTree::buildTree(QChar *structure, int *index, unsigned char *mask)
+HuffmanTree *HuffmanTree::buildTree(char *structure, int *index, unsigned char *mask)
+{
+    HuffmanTree* nodo = new HuffmanTree();
+    (*mask)>>=1;
+    if((*mask)==0){
+        (*mask)=128;
+        (*index)++;
+    }
+    unsigned char ch = (unsigned char) structure[(*index)];
+    if((*mask) & ch){
+        unsigned char v = 0;
+        for(int m=128;m>0;m>>=1){
+            (*mask)>>=1;
+            if((*mask)==0){
+                (*mask)=128;
+                (*index)++;
+                ch = structure[(*index)];
+            }
+            if((*mask) & ch) v = v | m;
+        }
+        nodo->setValue(v);
+    } else {
+        nodo->setLeft(HuffmanTree::buildTree(structure, index, mask));
+        nodo->setRight(HuffmanTree::buildTree(structure, index, mask));
+    }
+    return nodo;
+}
+
+/*HuffmanTree *HuffmanTree::buildTree(QChar *structure, int *index, unsigned char *mask)
 {
     HuffmanTree* nodo = new HuffmanTree();
     (*mask)>>=1;
@@ -251,3 +308,4 @@ HuffmanTree *HuffmanTree::buildTree(QChar *structure, int *index, unsigned char 
     }
     return nodo;
 }
+*/
