@@ -5,6 +5,8 @@
 #include "huffman/compress/huffmancompressor.h"
 #include "huffman/decompress/huffmandecompressor.h"
 #include "xmlparser/streamparser.h"
+#include "xmlparser/svgvalidator.h"
+#include "tree/patricia.h"
 
 namespace Ui {
 class MainWindow;
