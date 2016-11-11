@@ -4,8 +4,11 @@
 int main(int argc, char *argv[])
 {
 
+    QString ffff = "/home/anderson/Área de Trabalho/books.xml";
+    StreamParser *sp = new StreamParser();
+    sp->getContent(ffff);
 
-
+    return 0;
     Patricia<int>* patricia = new Patricia<int>();
 
     string s = "sre";
@@ -14,7 +17,7 @@ int main(int argc, char *argv[])
     string f = "srs";
 
     string px = "safs";
-patricia->insert(s, 33);
+patricia->insert("s", 33);
 patricia->insert(d, 14);
 patricia->insert(c, -53);
 patricia->insert(f, 64);
@@ -22,7 +25,6 @@ patricia->insert(f, 64);
     string a = patricia->largerPrefix(px);
     cout << "tamanho: " << patricia->getSize() << endl;
 
-    patricia->
     cout << a << endl;
 
 

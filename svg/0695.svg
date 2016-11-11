@@ -1,0 +1,190 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN"
+ "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="7121"
+ height="3133"
+ viewBox="-244 -71 7129 3141"
+ xml:space="preserve"
+ stroke-linecap="round" stroke-linejoin="round" stroke-width="7.76878"
+ fill="none" fill-rule="evenodd">
+<text x="723" y="2996" font-family="Arial" font-size="240" fill="#000" text-anchor="middle">O</text>
+<text x="38" y="2996" font-family="Arial" font-size="240" fill="#000" text-anchor="middle">O</text>
+<text x="-142" y="2996" font-family="Arial" font-size="240" fill="#000" text-anchor="middle">H</text>
+<text x="1066" y="2402" font-family="Arial" font-size="240" fill="#000" text-anchor="middle">O</text>
+<text x="3143" y="2043" font-family="Arial" font-size="240" fill="#000" text-anchor="middle">O</text>
+<text x="2438" y="2402" font-family="Arial" font-size="240" fill="#000" text-anchor="middle">O</text>
+<text x="2438" y="1214" font-family="Arial" font-size="240" fill="#000" text-anchor="middle">O</text>
+<text x="4067" y="2084" font-family="Arial" font-size="240" fill="#000" text-anchor="middle">O</text>
+<text x="4856" y="1401" font-family="Arial" font-size="240" fill="#000" text-anchor="middle">O</text>
+<text x="5649" y="1167" font-family="Arial" font-size="240" fill="#000" text-anchor="middle">O</text>
+<text x="6596" y="1416" font-family="Arial" font-size="240" fill="#000" text-anchor="middle">O</text>
+<text x="6776" y="1416" font-family="Arial" font-size="240" fill="#000" text-anchor="middle">H</text>
+<text x="6081" y="1437" font-family="Arial" font-size="240" fill="#000" text-anchor="middle">O</text>
+<text x="6261" y="1437" font-family="Arial" font-size="240" fill="#000" text-anchor="middle">H</text>
+<text x="723" y="1412" font-family="Arial" font-size="240" fill="#000" text-anchor="middle">H</text>
+<path stroke="#000" stroke-width="17" d="M379 2703l0-396"/>
+<path stroke="#000" stroke-width="17" d="M356 2305l10-17"/>
+<path stroke="#000" stroke-width="17" d="M318 2286l12-22"/>
+<path stroke="#000" stroke-width="17" d="M279 2266l15-26"/>
+<path stroke="#000" stroke-width="17" d="M241 2247l17-31"/>
+<path stroke="#000" stroke-width="17" d="M202 2228l20-35"/>
+<path stroke="#000" stroke-width="17" d="M163 2209l23-40"/>
+<path stroke="#000" stroke-width="17" d="M125 2190l26-45"/>
+<path stroke="#000" stroke-width="17" d="M86 2171l29-50"/>
+<path stroke="#000" stroke-width="17" d="M48 2152l31-55"/>
+<path stroke="#000" stroke-width="17" d="M354 2723l239 137"/>
+<path stroke="#000" stroke-width="17" d="M384 2672l239 137"/>
+<path stroke="#000" stroke-width="17" d="M379 2703l-228 130"/>
+<path stroke="#000" stroke-width="17" d="M951 2241l-229-132"/>
+<path stroke="#000" stroke-width="17" d="M722 2109l0-396"/>
+<path stroke="#000" stroke-width="17" d="M722 1713l343-198"/>
+<path stroke="#000" stroke-width="17" d="M1065 1515l344 198"/>
+<path stroke="#000" stroke-width="17" d="M1409 1713l0 396"/>
+<path stroke="#000" stroke-width="17" d="M1180 2239l229-130"/>
+<path stroke="#000" stroke-width="17" d="M722 1713l-343-198"/>
+<path stroke="#000" stroke-width="17" d="M3245 2062l162 180"/>
+<path stroke="#000" stroke-width="17" d="M3407 2242l-198 343"/>
+<path stroke="#000" stroke-width="17" d="M3209 2585l-388-83"/>
+<path stroke="#000" stroke-width="17" d="M2821 2502l-41-393"/>
+<path stroke="#000" stroke-width="17" d="M2780 2109l-229 130"/>
+<path stroke="#000" stroke-width="17" d="M2323 2241l-229-132"/>
+<path stroke="#000" stroke-width="17" d="M2094 2109l0-396"/>
+<path stroke="#000" stroke-width="17" d="M2094 1713l343-198"/>
+<path stroke="#000" stroke-width="17" d="M2437 1515l343 198"/>
+<path fill="#000" stroke="#000" stroke-width="1" d="M2777 2102l6 14 259-87-28-62z"/>
+<path stroke="#000" stroke-width="17" d="M2780 2109l0-396"/>
+<path stroke="#000" stroke-width="17" d="M2780 1713l343-198"/>
+<path stroke="#000" stroke-width="17" d="M2821 2502l-293 265"/>
+<path stroke="#000" stroke-width="17" d="M3430 2247l-12 14"/>
+<path stroke="#000" stroke-width="17" d="M3466 2270l-15 19"/>
+<path stroke="#000" stroke-width="17" d="M3503 2293l-19 23"/>
+<path stroke="#000" stroke-width="17" d="M3539 2316l-21 28"/>
+<path stroke="#000" stroke-width="17" d="M3576 2338l-25 33"/>
+<path stroke="#000" stroke-width="17" d="M3612 2361l-28 38"/>
+<path stroke="#000" stroke-width="17" d="M3649 2384l-32 43"/>
+<path stroke="#000" stroke-width="17" d="M3685 2407l-35 47"/>
+<path stroke="#000" stroke-width="17" d="M3722 2430l-39 52"/>
+<path stroke="#000" stroke-width="17" d="M2323 1053l-229-132"/>
+<path stroke="#000" stroke-width="17" d="M2437 1515l0-279"/>
+<path stroke="#000" stroke-width="17" d="M3951 1975l-279-27"/>
+<path stroke="#000" stroke-width="17" d="M3672 1948l-83-388"/>
+<path stroke="#000" stroke-width="17" d="M3589 1560l343-198"/>
+<path stroke="#000" stroke-width="17" d="M3932 1362l295 265"/>
+<path stroke="#000" stroke-width="17" d="M4116 1875l111-248"/>
+<path stroke="#000" stroke-width="17" d="M4250 1629l-9 17"/>
+<path stroke="#000" stroke-width="17" d="M4288 1648l-12 22"/>
+<path stroke="#000" stroke-width="17" d="M4327 1667l-15 26"/>
+<path stroke="#000" stroke-width="17" d="M4366 1686l-18 31"/>
+<path stroke="#000" stroke-width="17" d="M4404 1706l-20 35"/>
+<path stroke="#000" stroke-width="17" d="M4443 1725l-23 40"/>
+<path stroke="#000" stroke-width="17" d="M4481 1744l-25 45"/>
+<path stroke="#000" stroke-width="17" d="M4520 1763l-29 50"/>
+<path stroke="#000" stroke-width="17" d="M4558 1782l-31 55"/>
+<path stroke="#000" stroke-width="17" d="M4459 1306l281 0"/>
+<path stroke="#000" stroke-width="17" d="M4459 1306l-121-376"/>
+<path stroke="#000" stroke-width="17" d="M4338 930l319-232"/>
+<path stroke="#000" stroke-width="17" d="M4657 698l321 232"/>
+<path stroke="#000" stroke-width="17" d="M4978 930l-87 261"/>
+<path stroke="#000" stroke-width="17" d="M4338 930l-378-123"/>
+<path stroke="#000" stroke-width="17" d="M5354 807l183 165"/>
+<path stroke="#000" stroke-width="17" d="M5354 807l83-387"/>
+<path stroke="#000" stroke-width="17" d="M5437 420l376-122"/>
+<path stroke="#000" stroke-width="17" d="M5813 298l295 265"/>
+<path stroke="#000" stroke-width="17" d="M6108 563l-82 395"/>
+<path stroke="#000" stroke-width="17" d="M5762 1036l264-78"/>
+<path stroke="#000" stroke-width="17" d="M6108 563l376-123"/>
+<path stroke="#000" stroke-width="17" d="M5437 420l-294-265"/>
+<path stroke="#000" stroke-width="17" d="M6421 958l119 249"/>
+<path stroke="#000" stroke-width="17" d="M6047 949l0 18"/>
+<path stroke="#000" stroke-width="17" d="M6090 946l0 24"/>
+<path stroke="#000" stroke-width="17" d="M6133 943l0 30"/>
+<path stroke="#000" stroke-width="17" d="M6176 940l0 36"/>
+<path stroke="#000" stroke-width="17" d="M6219 937l0 42"/>
+<path stroke="#000" stroke-width="17" d="M6262 934l0 48"/>
+<path stroke="#000" stroke-width="17" d="M6305 932l0 52"/>
+<path stroke="#000" stroke-width="17" d="M6348 929l0 58"/>
+<path stroke="#000" stroke-width="17" d="M6391 926l0 64"/>
+<path fill="#000" stroke="#000" stroke-width="1" d="M6034 957l-16 2 11 274 68-10z"/>
+<path stroke="#000" stroke-width="17" d="M4978 930l376-123"/>
+<path stroke="#000" stroke-width="17" d="M4227 1627l232-321"/>
+<path stroke="#000" stroke-width="17" d="M3407 2242l265-294"/>
+<path stroke="#000" stroke-width="17" d="M2094 2109l-342 198"/>
+<path stroke="#000" stroke-width="17" d="M1409 2109l343 198"/>
+<path stroke="#000" stroke-width="17" d="M379 2307l343-198"/>
+<path stroke="#000" stroke-width="17" d="M712 1692l20 0"/>
+<path stroke="#000" stroke-width="17" d="M708 1649l28 0"/>
+<path stroke="#000" stroke-width="17" d="M704 1606l36 0"/>
+<path stroke="#000" stroke-width="17" d="M700 1564l44 0"/>
+<path stroke="#000" stroke-width="17" d="M696 1521l52 0"/>
+<path stroke="#000" stroke-width="17" d="M692 1478l60 0"/>
+<path stroke="#000" stroke-width="17" d="M688 1435l68 0"/>
+<text x="1408" y="2600" font-family="Arial" font-size="240" fill="#000" text-anchor="middle">H</text>
+<path fill="#000" stroke="#000" stroke-width="1" d="M1417 2109h-16l-28 281h68z"/>
+<text x="2093" y="2598" font-family="Arial" font-size="240" fill="#000" text-anchor="middle">H</text>
+<path fill="#000" stroke="#000" stroke-width="1" d="M2102 2109h-16l-28 279h68z"/>
+<text x="2437" y="2004" font-family="Arial" font-size="240" fill="#000" text-anchor="middle">H</text>
+<path stroke="#000" stroke-width="17" d="M2447 1536l-20 0"/>
+<path stroke="#000" stroke-width="17" d="M2451 1579l-28 0"/>
+<path stroke="#000" stroke-width="17" d="M2455 1622l-36 0"/>
+<path stroke="#000" stroke-width="17" d="M2458 1664l-43 0"/>
+<path stroke="#000" stroke-width="17" d="M2462 1707l-52 0"/>
+<path stroke="#000" stroke-width="17" d="M2466 1750l-60 0"/>
+<path stroke="#000" stroke-width="17" d="M2470 1793l-68 0"/>
+<text x="2780" y="1412" font-family="Arial" font-size="240" fill="#000" text-anchor="middle">H</text>
+<path stroke="#000" stroke-width="17" d="M2770 1692l20 0"/>
+<path stroke="#000" stroke-width="17" d="M2766 1649l28 0"/>
+<path stroke="#000" stroke-width="17" d="M2762 1606l36 0"/>
+<path stroke="#000" stroke-width="17" d="M2758 1564l43 0"/>
+<path stroke="#000" stroke-width="17" d="M2753 1521l52 0"/>
+<path stroke="#000" stroke-width="17" d="M2749 1478l60 0"/>
+<path stroke="#000" stroke-width="17" d="M2745 1435l68 0"/>
+<text x="2821" y="2993" font-family="Arial" font-size="240" fill="#000" text-anchor="middle">H</text>
+<path stroke="#000" stroke-width="17" d="M2831 2523l-20 0"/>
+<path stroke="#000" stroke-width="17" d="M2835 2566l-28 0"/>
+<path stroke="#000" stroke-width="17" d="M2838 2609l-35 0"/>
+<path stroke="#000" stroke-width="17" d="M2842 2651l-43 0"/>
+<path stroke="#000" stroke-width="17" d="M2846 2694l-51 0"/>
+<path stroke="#000" stroke-width="17" d="M2850 2737l-60 0"/>
+<path stroke="#000" stroke-width="17" d="M2854 2780l-68 0"/>
+<text x="4077" y="1298" font-family="Arial" font-size="240" fill="#000" text-anchor="middle">H</text>
+<path stroke="#000" stroke-width="17" d="M4436 1310l5-19"/>
+<path stroke="#000" stroke-width="17" d="M4394 1303l7-27"/>
+<path stroke="#000" stroke-width="17" d="M4351 1295l9-34"/>
+<path stroke="#000" stroke-width="17" d="M4309 1288l11-42"/>
+<path stroke="#000" stroke-width="17" d="M4267 1280l12-49"/>
+<path stroke="#000" stroke-width="17" d="M4224 1273l15-58"/>
+<path stroke="#000" stroke-width="17" d="M4182 1265l17-65"/>
+<text x="4337" y="628" font-family="Arial" font-size="240" fill="#000" text-anchor="middle">H</text>
+<path stroke="#000" stroke-width="17" d="M4328 909l20 0"/>
+<path stroke="#000" stroke-width="17" d="M4324 866l27 0"/>
+<path stroke="#000" stroke-width="17" d="M4319 823l36 0"/>
+<path stroke="#000" stroke-width="17" d="M4315 781l44 0"/>
+<path stroke="#000" stroke-width="17" d="M4311 738l51 0"/>
+<path stroke="#000" stroke-width="17" d="M4306 695l60 0"/>
+<path stroke="#000" stroke-width="17" d="M4302 652l68 0"/>
+<text x="4978" y="629" font-family="Arial" font-size="240" fill="#000" text-anchor="middle">H</text>
+<path fill="#000" stroke="#000" stroke-width="1" d="M4970 930h16l25-279h-68z"/>
+<text x="5354" y="1297" font-family="Arial" font-size="240" fill="#000" text-anchor="middle">H</text>
+<path stroke="#000" stroke-width="17" d="M5364 828l-20 0"/>
+<path stroke="#000" stroke-width="17" d="M5368 871l-28 0"/>
+<path stroke="#000" stroke-width="17" d="M5372 914l-36 0"/>
+<path stroke="#000" stroke-width="17" d="M5375 956l-43 0"/>
+<path stroke="#000" stroke-width="17" d="M5379 999l-52 0"/>
+<path stroke="#000" stroke-width="17" d="M5383 1042l-60 0"/>
+<path stroke="#000" stroke-width="17" d="M5387 1085l-68 0"/>
+<text x="5540" y="133" font-family="Arial" font-size="240" fill="#000" text-anchor="middle">H</text>
+<path stroke="#000" stroke-width="17" d="M5432 397l20 5"/>
+<path stroke="#000" stroke-width="17" d="M5439 355l28 7"/>
+<path stroke="#000" stroke-width="17" d="M5446 312l36 9"/>
+<path stroke="#000" stroke-width="17" d="M5453 270l43 11"/>
+<path stroke="#000" stroke-width="17" d="M5460 227l51 13"/>
+<path stroke="#000" stroke-width="17" d="M5467 185l59 15"/>
+<text x="6210" y="275" font-family="Arial" font-size="240" fill="#000" text-anchor="middle">H</text>
+<path stroke="#000" stroke-width="17" d="M6103 540l20 5"/>
+<path stroke="#000" stroke-width="17" d="M6110 498l27 7"/>
+<path stroke="#000" stroke-width="17" d="M6117 455l35 9"/>
+<path stroke="#000" stroke-width="17" d="M6123 413l43 11"/>
+<path stroke="#000" stroke-width="17" d="M6130 370l51 13"/>
+<path stroke="#000" stroke-width="17" d="M6137 328l58 15"/>
+</svg>
