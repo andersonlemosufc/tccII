@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/), then hand optimized -->
+<!-- This file could be much smaller if it didn't have to be readable by inkscaps -->
+
+<svg
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   version="1.1"
+   width="8000"
+   height="5000"
+   viewBox="0 0 8000 5000"
+   id="svg2">
+  <title
+     id="title1">VESA Mounts, size E</title>
+  <desc
+     id="desc1">VESA mounts, MIS part E scale drawing</desc>
+  <metadata
+     id="metadata1">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>VESA Mounts, size E</dc:title>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/" />
+        <dc:description>VESA mounts, MIS part E scale drawing</dc:description>
+        <dc:date>2012-12-23</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakob Bohm</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>Wikimedia Foundation</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:language>en</dc:language>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>VESA</rdf:li>
+            <rdf:li>mount</rdf:li>
+            <rdf:li>FPMI</rdf:li>
+            <rdf:li>MIS</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by-sa/3.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#ShareAlike" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs92" />
+  <g
+     id="layer1"
+     transform="matrix(10,0,0,10,0,0)">
+    <text
+       id="TitleTxt"
+       style="font-size:20px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="55"
+       y="25"
+       xml:lang="en-us">VESA MIS-E</text>
+    <g
+       id="Scale">
+      <path
+         id="ScaleBar"
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 500,20 0,10 100,0 0,-10" />
+      <text
+         id="ScaleTxt"
+         style="font-size:20px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         x="515"
+         y="25">100mm</text>
+    </g>
+    <g
+       id="PerspSym3rdAngle">
+      <circle
+         id="perspsymbase"
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         cx="700"
+         cy="20"
+         r="10" />
+      <circle
+         id="perspsymtop"
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         cx="700"
+         cy="20"
+         r="5" />
+      <path
+         id="perspsymside"
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 720,15 20,-5 0,20 -20,-5 z" />
+      <path
+         id="perspsymaxis"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:8, 2, 1, 2;stroke-dashoffset:0"
+         d="m 685,20 60,0" />
+      <path
+         id="perspsymaxis2"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:8, 2, 1, 2;stroke-dashoffset:0"
+         d="m 700,5 0,30" />
+    </g>
+    <g
+       id="MainView">
+      <rect
+         id="Screen"
+         style="fill:#424242;fill-opacity:1;stroke:#424242;stroke-width:0px"
+         x="40"
+         y="40"
+         width="640"
+         height="360"
+         rx="15"
+         ry="15" />
+      <g
+         id="MountC">
+        <title
+           id="MountCT">Mount C</title>
+        <rect
+           id="ClearanceC"
+           style="fill:#42ff42;fill-opacity:1;stroke:#42ff42;stroke-width:0"
+           x="251.5"
+           y="161.5"
+           width="217"
+           height="117"
+           rx="7"
+           ry="7">
+          <title
+             id="CleranceCT">Clearance</title>
+        </rect>
+        <rect
+           id="BracketC"
+           style="fill:#0000c6;fill-opacity:1;stroke:#0000c6;stroke-width:0"
+           x="252.5"
+           y="162.5"
+           width="215"
+           height="115"
+           rx="6"
+           ry="6">
+          <title
+             id="BracketCT">Bracket</title>
+        </rect>
+        <circle
+           id="HoleC1"
+           style="fill:#840000;fill-opacity:1;stroke:#840000;stroke-width:0"
+           cx="260"
+           cy="170"
+           r="2.5">
+          <title
+             id="HoleC1T">Hole</title>
+        </circle>
+        <use
+           id="HoleC2"
+           x="100"
+           y="0"
+           xlink:href="#HoleC1" />
+        <use
+           id="HoleC3"
+           x="200"
+           y="0"
+           xlink:href="#HoleC1" />
+        <use
+           id="HoleC4"
+           x="0"
+           y="100"
+           xlink:href="#HoleC1" />
+        <use
+           id="HoleC5"
+           x="100"
+           y="100"
+           xlink:href="#HoleC1" />
+        <use
+           id="HoleC6"
+           x="200"
+           y="100"
+           xlink:href="#HoleC1" />
+      </g>
+      <text
+         id="LabelC"
+         style="font-size:40px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         x="348"
+         y="235">C</text>
+      <g
+         id="MountT">
+        <title
+           id="MountTT">Mount</title>
+        <rect
+           id="ClearanceT"
+           style="fill:#42ff42;fill-opacity:1;stroke:#42ff42;stroke-width:0"
+           x="251.5"
+           y="41.5"
+           width="217"
+           height="67"
+           rx="7"
+           ry="7">
+          <title
+             id="ClearanceTT">Clearance</title>
+        </rect>
+        <path
+           id="BracketT"
+           style="fill:#0000c6;fill-opacity:1;stroke:#0000c6;stroke-width:0"
+           d="m 258.5,42.5
+              1.5,0 0,-12.5 200,0 0,12.5 1.5,0
+              c 3,0 6,3 6,6
+              v 53
+              c 0,3 -3,6 -6,6
+              h -203
+              c -3,0 -6,-3 -6,-6
+              v -53
+              c 0,-3 3,-6 6,-6 z">
+          <title
+             id="BracketTT">Bracket</title>
+        </path>
+        <use
+           id="HoleT1"
+           x="0"
+           y="-120"
+           xlink:href="#HoleC1" />
+        <use
+           id="HoleT2"
+           x="100"
+           y="-120"
+           xlink:href="#HoleC1" />
+        <use
+           id="HoleT3"
+           x="200"
+           y="-120"
+           xlink:href="#HoleC1" />
+        <use
+           id="HoleT4"
+           x="0"
+           y="-70"
+           xlink:href="#HoleC1" />
+        <use
+           id="HoleT5"
+           x="100"
+           y="-70"
+           xlink:href="#HoleC1" />
+        <use
+           id="HoleT6"
+           x="200"
+           y="-70"
+           xlink:href="#HoleC1" />
+      </g>
+      <text
+         id="LabelT"
+         style="font-size:40px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         x="348"
+         y="90">T</text>
+      <use
+         id="MountB"
+         transform="matrix(-1,0,0,-1,720,440)"
+         x="0"
+         y="0"
+         xlink:href="#MountT" />
+      <text
+         id="LabelB"
+         style="font-size:40px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         x="348"
+         y="380">B</text>
+      <use
+         id="MountL"
+         transform="matrix(0,-1,1,0,0,580)"
+         x="0"
+         y="0"
+         xlink:href="#MountT" />
+      <text
+         id="LabelL"
+         style="font-size:40px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         x="65"
+         y="235">L</text>
+      <use
+         id="MountR"
+         transform="matrix(0,1,-1,0,720,-140)"
+         x="0"
+         y="0"
+         xlink:href="#MountT" />
+      <text
+         id="LabelR"
+         style="font-size:40px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         x="630"
+         y="235">R</text>
+      <path
+         id="cutplane"
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:8, 2, 1, 2;stroke-dashoffset:0"
+         d="m 360,20 0,400" />
+    </g>
+    <g
+       id="CrossSectionX">
+      <rect
+         id="XScreen"
+         style="fill:#424242;fill-opacity:1;fill-rule:evenodd;stroke:#424242;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="715"
+         y="40"
+         width="50"
+         height="360"
+         rx="15"
+         ry="15" />
+      <g
+         id="XMountC">
+        <rect
+           id="XClearanceC"
+           style="fill:#42ff42;fill-opacity:1;stroke:#42ff42;stroke-width:0;stroke-linejoin:miter;stroke-opacity:1"
+           x="715"
+           y="161.5"
+           width="10"
+           height="117"
+           rx="0"
+           ry="0" />
+        <rect
+           id="XBracketC"
+           style="fill:#0000c6;fill-opacity:1;stroke:#0000c6;stroke-width:0;stroke-linejoin:miter;stroke-opacity:1"
+           x="722.4"
+           y="162.5"
+           width="2.5"
+           height="115"
+           rx="0"
+           ry="0">
+          <title
+             id="XBracketCT">Bracket</title>
+        </rect>
+        <rect
+           id="XHoleC2"
+           style="fill:#840000;fill-opacity:1;stroke:#840000;stroke-width:0;stroke-linejoin:miter;stroke-opacity:1"
+           x="722.4"
+           y="167.5"
+           width="2.6"
+           height="5"
+           rx="0"
+           ry="0">
+          <title
+             id="XHoleC2T">Hole</title>
+        </rect>
+        <path
+           id="XScrewC2"
+           style="fill:#848400;stroke:none"
+           d="m 722.4,168
+              0.35,0.4 0.35,-0.4 0.35,0.4 0.35,-0.4 0.35,0.4 0.35,-0.4
+              0.35,0.4 0.35,-0.4 0.35,0.4 0.35,-0.4 0.35,0.4 0.35,-0.4
+              0.35,0.4 0.35,-0.4 0.35,0.4 0.35,-0.4 0.35,0.4 0.35,-0.4
+              0.35,0.4 0.35,-0.4 0.35,0.4 0.35,-0.4 0.35,0.4 0.35,-0.4
+              0.35,0.4 0.35,-0.4 0.35,0.4 0.35,-0.4
+              0,3.6
+              -0.35,0.4 -0.35,-0.4 -0.35,0.4 -0.35,-0.4
+              -0.35,0.4 -0.35,-0.4 -0.35,0.4 -0.35,-0.4 -0.35,0.4 -0.35,-0.4
+              -0.35,0.4 -0.35,-0.4 -0.35,0.4 -0.35,-0.4 -0.35,0.4 -0.35,-0.4
+              -0.35,0.4 -0.35,-0.4 -0.35,0.4 -0.35,-0.4 -0.35,0.4 -0.35,-0.4
+              -0.35,0.4 -0.35,-0.4 -0.35,0.4 -0.35,-0.4 -0.35,0.4 -0.35,-0.4
+              0,2.4 -2,0 0,-8 2,0 z" />
+        <use
+           id="XHoleC5"
+           x="0"
+           y="100"
+           xlink:href="#XHoleC2" />
+        <use
+           id="XScrewC5"
+           x="0"
+           y="100"
+           xlink:href="#XScrewC2" />
+      </g>
+      <g
+         id="XMountT">
+        <rect
+           id="XClearanceT"
+           style="fill:#42ff42;fill-opacity:1;stroke:#42ff42;stroke-width:0;stroke-linejoin:miter;stroke-opacity:1"
+           x="715"
+           y="41.5"
+           width="10"
+           height="67"
+           rx="0"
+           ry="0" />
+        <rect
+           id="XBracketT"
+           style="fill:#0000c6;fill-opacity:1;stroke:#0000c6;stroke-width:0;stroke-linejoin:miter;stroke-opacity:1"
+           x="722.4"
+           y="30"
+           width="2.6"
+           height="77.5"
+           rx="0"
+           ry="0">
+          <title
+             id="XBracketTT">Bracket</title>
+        </rect>
+        <use
+           id="XHoleT2"
+           x="0"
+           y="-120"
+           xlink:href="#XHoleC2" />
+        <use
+           id="XScrewT2"
+           x="0"
+           y="-120"
+           xlink:href="#XScrewC2" />
+        <use
+           id="XHoleT5"
+           x="0"
+           y="-70"
+           xlink:href="#XHoleC2" />
+        <use
+           id="XScrewT5"
+           x="0"
+           y="-70"
+           xlink:href="#XScrewC2" />
+      </g>
+      <use
+         id="XMountB"
+         transform="matrix(1,0,0,-1,0,440)"
+         x="0"
+         y="0"
+         xlink:href="#XMountT" />
+    </g>
+    <text
+       id="ExplanationTxt"
+       style="font-size:16px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="50"
+       y="450"
+       xml:lang="en-us">Use only one bracket at a time, drawing shows all 5 variants, seen from the back</text>
+    <g
+       id="Legend">
+      <g
+         id="LScreen">
+        <rect
+           id="LScreenSample"
+           style="fill:#424242;fill-opacity:1;stroke:#424242;stroke-width:0px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+           x="50"
+           y="470"
+           width="15"
+           height="15"
+           rx="4"
+           ry="4" />
+        <text
+           id="LScreenTxt"
+           style="font-size:12px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+           x="75"
+           y="484"
+           xml:lang="en-us">28&quot; screen</text>
+      </g>
+      <g
+         id="LClearance">
+        <rect
+           id="LClearanceSample"
+           style="fill:#42ff42;fill-opacity:1;stroke:#42ff42;stroke-width:0"
+           x="160"
+           y="470"
+           width="15"
+           height="15"
+           rx="4"
+           ry="4" />
+        <text
+           id="LClearanceTxt"
+           style="font-size:12px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+           x="180"
+           y="484"
+           xml:lang="en-us">Clearance for bracket</text>
+      </g>
+      <g
+         id="LBracket">
+        <rect
+           id="LBracketSample"
+           style="fill:#0000c6;fill-opacity:1;stroke:#0000c6;stroke-width:0"
+           x="320"
+           y="470"
+           width="15"
+           height="15"
+           rx="4"
+           ry="4" />
+        <text
+           id="LbracketTxt"
+           style="font-size:12px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+           x="340"
+           y="484"
+           xml:lang="en-us">Bracket 2.6mm</text>
+      </g>
+      <g
+         id="LHole">
+        <circle
+           id="LHoleSample"
+           style="fill:#840000;fill-opacity:1;stroke:#840000;stroke-width:0"
+           cx="452.5"
+           cy="477.5"
+           r="7.5" />
+        <text
+           id="LholeTxt"
+           style="font-size:12px;fill-opacity:1;stroke:none;font-family:Sans"
+           x="468"
+           y="484"
+           xml:lang="en-us">5mm holes in bracket</text>
+      </g>
+      <g
+         id="LScrew">
+        <use
+           id="LScrewSample"
+           transform="matrix(3,0,0,3,-1553,-30)"
+           x="0"
+           y="0"
+           xlink:href="#XScrewC2" />
+        <text
+           id="LscrewTxt"
+           style="font-size:12px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+           x="651"
+           y="484"
+           xml:lang="en-us">M4 10mm screws</text>
+      </g>
+    </g>
+  </g>
+</svg>
